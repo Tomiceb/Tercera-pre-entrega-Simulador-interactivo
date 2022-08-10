@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   text-decoration: none !important;
   list-style: none !important; }
@@ -17,25 +18,56 @@
     font-size: 30px; }
 
 /*---------------------------Fin NavBar---------------------------*/
+/*---------------------------Tamaños imagenes---------------------------*/
+.foto-pc {
+  width: 200px;
+  height: 200px; }
+
+.imagen-oferta {
+  width: 250px;
+  height: 250px; }
+
+.imagen-novedad {
+  width: 200px;
+  height: 200px; }
+
+.local-foto {
+  height: 400px;
+  width: 100%; }
+
+/*---------------------------Fin Imagenes---------------------------*/
 /*---------------------------Main---------------------------*/
 /* Section 1 */
+.section-1 {
+  margin-bottom: 40px; }
+
 h2 {
   text-align: left;
   background-color: #483d8b;
   color: #fff; }
 
-.section-1 {
-  margin-bottom: 40px; }
+/* section 2 */
+.text-left {
+  text-align: start; }
 
-.p-texto-contact {
-  font-size: 20px; }
+.button-comprar {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px 40px;
+  border-radius: 10px;
+  border: 2px solid blueviolet;
+  box-shadow: 2px 2px 10px blueviolet;
+  color: #7fffd4;
+  background-color: #7fecffe0; }
+
+.color-pc {
+  background-color: #7fffd4; }
 
 .h2-text-center {
   text-align: center; }
 
-.local-foto {
-  height: 400px;
-  width: 100%; }
+.p-texto-contact {
+  font-size: 20px; }
 
 /*---------------------------Fin Main---------------------------*/
 /*--------------- Transform ---------------*/
@@ -74,3 +106,26 @@ footer {
     font-weight: bold; }
 
 /*---------------------------Fin Footer---------------------------*/
+/*---- Media queries ----*/
+@media (max-width: 1020px) {
+  .logos-de-marcas {
+    height: 200px;
+    width: 150px; }
+  .media-display1 {
+    display: none; } }
+
+@media (max-width: 991px) {
+  .card {
+    width: 80% !important; } }
+
+@media (min-width: 769px) {
+  .imagen-oferta {
+    width: 400px;
+    height: 400px; } }
+
+@media (max-width: 620px) {
+  .media-display2 {
+    display: none; }
+  .logos-de-marcas {
+    height: 100px;
+    width: 100px; } }

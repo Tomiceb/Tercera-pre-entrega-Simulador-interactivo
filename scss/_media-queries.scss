@@ -1,0 +1,34 @@
+/*---- Media queries ----*/
+@media (max-width:1020px){
+
+    .logos-de-marcas{
+        height: 200px;
+        width: 150px;
+    }
+    .media-display1{
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .card{
+        width: 80% !important;
+    }
+}
+
+@media(min-width: 769px){
+    .imagen-oferta{
+        width:400px;
+        height:400px;
+    }
+}
+
+@media (max-width:620px){
+.media-display2{
+        display: none;
+    }
+.logos-de-marcas{
+    height: 100px;
+     width: 100px;
+    }
+}
