@@ -1,26 +1,26 @@
 /*---------------------------Tamaños imagenes---------------------------*/
+/*-------Mixins------*/
+@mixin size($alto,$ancho){
+    height: $alto;
+    width: $ancho;
+}
+
 .foto-pc{
-    width: 200px;
-    height: 200px;
+    @include size(200px,200px )
 }
 
 .imagen-oferta{
-    width: 250px;
-    height:250px;
+    @include size(250px,250px )
 }
 
 .imagen-novedad{
-    width: 200px;
-    height: 200px;
+    @include size(200px,200px )
 }
-
 .local-foto{
-    height: $spacing-5;
-    width: 100%;
+    @include size($spacing-5,100% )
 }
 .logos-de-marcas{
-    height: 200px;
-    width: 300px;
+    @include size(200px,300px )
 }
-
+/*-------Fin Mixins------*/  
 /*---------------------------Fin Imagenes---------------------------*/
