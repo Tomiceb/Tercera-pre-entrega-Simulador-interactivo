@@ -37,7 +37,7 @@
 
 /*---------------------------Fin Imagenes---------------------------*/
 /*---------------------------Main---------------------------*/
-/* Section 1 */
+/*-------------------Section 1-------------------*/
 .section-1 {
   margin-bottom: 40px; }
 
@@ -46,7 +46,14 @@ h2 {
   background-color: #483d8b;
   color: #fff; }
 
-/* section 2 */
+.p-texto-contact {
+  font-size: 20px; }
+
+.card {
+  background-color: #b5b5b5 !important; }
+
+/*-------------------Fin Section 1-------------------*/
+/*------------------- Section 2-------------------*/
 .text-left {
   text-align: start; }
 
@@ -66,9 +73,7 @@ h2 {
 .h2-text-center {
   text-align: center; }
 
-.p-texto-contact {
-  font-size: 20px; }
-
+/*------------------- Fin Section 2-------------------*/
 /*---------------------------Fin Main---------------------------*/
 /*--------------- Transform ---------------*/
 .p-contacto {

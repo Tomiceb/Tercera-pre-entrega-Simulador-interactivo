@@ -1,6 +1,5 @@
 /*---------------------------Main---------------------------*/
-
-/* Section 1 */
+/*-------------------Section 1-------------------*/
 .section-1{
     margin-bottom: $spacing-2;
 }
@@ -9,7 +8,21 @@ h2{
     background-color: $color-2;
     color: #fff;
 }
-/* section 2 */
+.p-texto-contact{
+    font-size: 20px;
+}
+
+.card{
+    background-color: #b5b5b5 !important;
+}
+/*-------------------Fin Section 1-------------------*/
+
+
+
+
+
+
+/*------------------- Section 2-------------------*/
 .text-left{
     text-align: start;
 }
@@ -26,16 +39,16 @@ h2{
 .color-pc{
     background-color: #7fffd4;
 }
-
 .h2-text-center{
     text-align: $poss1;
 }
+/*------------------- Fin Section 2-------------------*/
 
 
 
-.p-texto-contact{
-    font-size: 20px;
-}
+
+
+
 /*---------------------------Fin Main---------------------------*/
 
 
@@ -49,12 +62,10 @@ h2{
     font-weight: $font1;
     font-size: $spacing-1;
 }
-
 .p-contacto-trans{
     display: inline-block;
     position: relative;
 }
-
 .p-contacto-trans::after{
     content: "";
     position: absolute ;
@@ -71,6 +82,4 @@ h2{
     transform: scaleX(1);
     transform-origin: bottom left;
 }
-
-
 /*-------- Fin transform --------*/
