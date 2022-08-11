@@ -52,6 +52,9 @@ h2 {
   background-color: #483d8b;
   color: #fff; }
 
+.h2-text-center {
+  text-align: center; }
+
 .p-texto-contact {
   font-size: 20px; }
 
@@ -82,19 +85,29 @@ h2 {
   background-color: #4bb631e0; }
 
 /*--------Fin Extend----------*/
+/*-------- Mapa --------*/
+.color-telefono {
+  color: #6a1474; }
+
+.color-email {
+  color: #277d80; }
+
+.color-envios {
+  color: #137924; }
+
+/*-------- Fin Mapa--------*/
+/*------------------- Fin Section 2-------------------*/
+/*------------------- Section 3-------------------*/
 .color-pc {
   background-color: #7fffd4; }
 
-.h2-text-center {
-  text-align: center; }
-
-/*------------------- Fin Section 2-------------------*/
-/*----------------carrusel----------------*/
+/*-------carrusel------*/
 .section-marcas {
   display: flex;
   justify-content: space-between; }
 
-/*----------------Fin Carrusel----------------*/
+/*------Fin Carrusel------*/
+/*------------------- Fin Section 3-------------------*/
 /*---------------------------Fin Main---------------------------*/
 /*--------------- Transform ---------------*/
 .p-contacto {
