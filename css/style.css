@@ -106,6 +106,9 @@ h2 {
   display: flex;
   justify-content: space-between; }
 
+.carrouselPoss {
+  text-align: center; }
+
 /*------Fin Carrusel------*/
 /*------------------- Fin Section 3-------------------*/
 /*---------------------------Fin Main---------------------------*/
