@@ -10,12 +10,28 @@
     }
 }
 
-@media (max-width: 991px) {
+/* -------------Cards-------------*/ 
+@media (max-width: 1200px) {
     .card{
-        width: 80% !important;
+        width: 18rem !important;
     }
 }
-
+@media (max-width: 990px) {
+    .card{
+        width: 14rem !important;
+    }
+}
+@media (max-width: 770px) {
+    .card{
+        width: 10rem !important;
+    }
+}
+@media (max-width: 575px) {
+    .card{
+        width: 100% !important;
+    }
+}
+/* ---------------Fin Cards----------------*/ 
 @media(min-width: 769px){
     .imagen-oferta{
         width:400px;

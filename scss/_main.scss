@@ -14,9 +14,64 @@ h2{
 .p-texto-contact{
     font-size: 20px;
 }
+
+.button-comprar {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 2px solid blueviolet;
+    box-shadow: 2px 2px 10px blueviolet;
+    background-color:#7fecffe0;
+}
+
+
+/*--------------Extend Productos-----------------*/ 
+
+.p-productos{
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bold;
+}
+.p-productos-auris{
+    @extend .p-productos;
+    color: #15db15;
+}
+.p-productos-mouse{
+    @extend .p-productos;
+    color: #5c6ecf;
+}
+.p-productos-teclado{
+    @extend .p-productos;
+    color: #d65672;
+}
+/*--------------Fin Extend Productos-----------------*/ 
+
+
+/*---------------------------------------Cards productos-------------------------*/ 
+/*-------- Mapa buttons prod--------*/
+$productos: (
+    auris: #15db15,
+    mouse: #5c6ecf,
+    teclado: #d65672,
+);
+
+@each $prod, $color in $productos {
+    .color-button-#{$prod} {
+        background-color:$color !important;
+    }
+}
+/*-------- Fin Mapa button prod--------*/
+
+.possCards{
+    text-align: center !important;
+}
 .card{
     background-color: #b5b5b5 !important;
+    text-align: center !important;
 }
+/*-------------------------------------Fin Cards productos-----------------------*/ 
 /*-------------------Fin Section 1-------------------*/
 
 
@@ -28,45 +83,9 @@ h2{
 .text-left{
     text-align: start;
 }
-/*-------- Extend----------*/
-.button {
-    font-size: 1.5em;
-    font-weight: bold;
-    padding: 10px 40px;
-    border-radius: 10px;
-    border: 2px solid blueviolet;
-    box-shadow: 2px 2px 10px blueviolet;
-}
-.button-comprar{
-    @extend .button;
-    background-color:#7fecffe0;
-}
-.button-comprar2{
-    @extend .button;
-    background-color:#0dff197c;
-}
-.button-comprar3{
-    @extend .button;
-    background-color:#4bb631e0;
-}
-/*--------Fin Extend----------*/
 
 
 
-
-/*-------- Mapa --------*/
-$metodos: (
-    telefono: rgb(106, 20, 116),
-    email: rgb(39, 125, 128),
-    envios: rgb(19, 121, 36),
-);
-
-@each $contacto, $color in $metodos {
-    .color-#{$contacto} {
-        color:$color
-    }
-}
-/*-------- Fin Mapa--------*/
 
 
 
