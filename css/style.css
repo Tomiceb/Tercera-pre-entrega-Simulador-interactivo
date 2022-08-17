@@ -152,9 +152,12 @@ h2 {
 
 /*-------- Fin transform --------*/
 /*---------------------------Formulario---------------------------*/
+.padding-form {
+  padding-top: 110px; }
+
 .imagenLogin {
-  height: 100px;
-  width: 100px; }
+  height: 150px;
+  width: 150px; }
 
 .imagenLoginPoss {
   text-align: center; }
