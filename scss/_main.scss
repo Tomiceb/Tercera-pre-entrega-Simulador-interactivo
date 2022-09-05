@@ -84,11 +84,6 @@ $productos: (
     text-align: start;
 }
 
-
-
-
-
-
 /*------------------- Fin Section 2-------------------*/
 
 
@@ -110,14 +105,24 @@ $productos: (
 .carrouselPoss{
     text-align: center;
 }
+.w-carrousel{
+    width: 60%;
+}
+.carrito-carrousel-widht{
+    width: 50%;
+}
 /*------Fin Carrusel------*/ 
-
-
-
 /*------------------- Fin Section 3-------------------*/
 
 
-
+/*------Section 5------*/ 
+.oferta-img{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.imagen-gift{
+    padding-bottom: 10px;
+}
 
 
 /*---------------------------Fin Main---------------------------*/

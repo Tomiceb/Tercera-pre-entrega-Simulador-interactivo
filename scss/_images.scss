@@ -12,13 +12,19 @@
     @include size(250px,250px )
 }
 .imagen-novedad{
-    @include size(200px,200px )
+    @include size(200px,180px )
+}
+.imagen-gift{
+    @include size(250px,250px )
 }
 .local-foto{
     @include size($spacing-5,100% )
 }
 .logos-de-marcas{
     @include size(200px,300px )
+}
+.oferta-img{
+    @include size (100%,100% )
 }
 /*-------Fin Mixins------*/  
 /*---------------------------Fin Imagenes---------------------------*/

@@ -30,7 +30,11 @@
 
 .imagen-novedad {
   height: 200px;
-  width: 200px; }
+  width: 180px; }
+
+.imagen-gift {
+  height: 250px;
+  width: 250px; }
 
 .local-foto {
   height: 400px;
@@ -39,6 +43,10 @@
 .logos-de-marcas {
   height: 200px;
   width: 300px; }
+
+.oferta-img {
+  height: 100%;
+  width: 100%; }
 
 /*-------Fin Mixins------*/
 /*---------------------------Fin Imagenes---------------------------*/
@@ -122,8 +130,22 @@ h2 {
 .carrouselPoss {
   text-align: center; }
 
+.w-carrousel {
+  width: 60%; }
+
+.carrito-carrousel-widht {
+  width: 50%; }
+
 /*------Fin Carrusel------*/
 /*------------------- Fin Section 3-------------------*/
+/*------Section 5------*/
+.oferta-img {
+  padding-top: 20px;
+  padding-bottom: 40px; }
+
+.imagen-gift {
+  padding-bottom: 10px; }
+
 /*---------------------------Fin Main---------------------------*/
 /*--------------- Transform ---------------*/
 .p-contacto {
@@ -196,7 +218,10 @@ footer {
 /* -------------Cards-------------*/
 @media (max-width: 1200px) {
   .card {
-    width: 18rem !important; } }
+    width: 18rem !important; }
+  .imagen-gift {
+    height: 150px;
+    width: 150px; } }
 
 @media (max-width: 990px) {
   .card {
@@ -204,11 +229,16 @@ footer {
 
 @media (max-width: 770px) {
   .card {
-    width: 10rem !important; } }
+    width: 10rem !important; }
+  .imagen-gift {
+    height: 400px;
+    width: 290px; } }
 
 @media (max-width: 575px) {
   .card {
-    width: 100% !important; } }
+    width: 100% !important; }
+  .w-carrousel {
+    width: 100%; } }
 
 /* ---------------Fin Cards----------------*/
 @media (min-width: 769px) {
@@ -222,3 +252,5 @@ footer {
   .logos-de-marcas {
     height: 100px;
     width: 100px; } }
+
+/*-------------Carrousel------------------*/
