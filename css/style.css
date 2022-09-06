@@ -24,16 +24,12 @@
   height: 200px;
   width: 200px; }
 
-.imagen-oferta {
-  height: 250px;
-  width: 250px; }
-
 .imagen-novedad {
   height: 200px;
   width: 180px; }
 
 .imagen-gift {
-  height: 250px;
+  height: 300px;
   width: 250px; }
 
 .local-foto {
@@ -173,6 +169,23 @@ h2 {
   transform-origin: bottom left; }
 
 /*-------- Fin transform --------*/
+/*--------Hover Gift Cards-----------*/
+.caption-style-4 a:hover img {
+  opacity: 1;
+  transform: scale(1.15, 1.15);
+  -webkit-transform: scale(1.15, 1.15);
+  -moz-transform: scale(1.15, 1.15);
+  -ms-transform: scale(1.15, 1.15);
+  -o-transform: scale(1.15, 1.15); }
+
+.caption-style-4 img {
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out; }
+
+/*--------Fin Hover Gift Cards----------*/
 /*---------------------------Formulario---------------------------*/
 .padding-form {
   padding-top: 110px; }
@@ -241,11 +254,6 @@ footer {
     width: 100%; } }
 
 /* ---------------Fin Cards----------------*/
-@media (min-width: 769px) {
-  .imagen-oferta {
-    width: 400px;
-    height: 400px; } }
-
 @media (max-width: 620px) {
   .media-display2 {
     display: none; }
