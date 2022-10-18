@@ -1,26 +1,14 @@
 /*----------------------Login---------------*/ 
+alert("Bienvenidos a Hardteck");
 
-let UserValidate= "coderhouse";
-let PasswordValidate= "coderhouse123";
+const usuarioAutorizado = "coderhouse";
+const passwordAutorizada = "1234";
 
-let User = prompt("Ingrese Su Usuario");
+let usuario = prompt("Ingrese su usuario: ");
+let password = prompt("Ingrese su contraseña: ");
 
-if(User === UserValidate ) {
-    let Password = prompt("Ingrese su Contraseña ");  
-} 
-else {
-    alert ("el usuario no existe");
+if(usuario === usuarioAutorizado && password === passwordAutorizada) {
+    alert("Bienvenido " + usuario); 
+} else {
+    alert("usuario o contraseña incorrecta");
 }
-
-if(Password === PasswordValidate ) {
-    alert ("Bienvenido a Hardteck");
-}
-else{
-for( let i = 0; i < 2; i++) {
-    passwordUsuario = prompt("Contraseña incorrecta, vuelva a intentarlo: ");
-}
-}
-
-
-
-
